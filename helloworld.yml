@@ -1,0 +1,5 @@
+- name: Teste Erreichbarkeit der Hosts
+  hosts: all
+  tasks:
+    - name: Ping-Test
+      ping:
